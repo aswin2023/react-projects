@@ -1,12 +1,10 @@
-
-
+import React from 'react';
+import Navbar from './Navbar';
 function App() {
   return (
-    <div className="App">
-      <h1>
-        Reactjs projects
-      </h1>
-    </div>
+    <>
+      <Navbar></Navbar>
+    </>
   );
 }
 
